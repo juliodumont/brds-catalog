@@ -1,0 +1,14 @@
+.desc-card{
+    color: #FFFFFF;
+    padding: 28px 0px 25px 0px;
+    margin-bottom: 20px;
+}
+
+.desc-card p{
+    font-size: 18px;
+}
+
+.description-container{
+    text-align: center;
+    width: 260px;
+}

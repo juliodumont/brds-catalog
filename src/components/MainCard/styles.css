@@ -1,0 +1,20 @@
+.main-card{
+    background-color: #00285F;
+    color: #FFFFFF;
+    padding: 62px 22px 50px 22px;
+    margin-bottom: 20px;
+}
+
+.main-card h3{ 
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.main-card p{
+    color: #FFFFFF;
+}
+
+.description-container{
+    text-align: center;
+    width: 260px;
+}
