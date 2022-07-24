@@ -3,15 +3,16 @@
     padding: 15px 21px;
 }
 
-.description-container{
+.product-card .description-container, .product-card-button{
     width: 260px;
 }
-.description-container h3{
+.product-card .description-container h3{
     font-weight: 700;
     color: #000;
 }
 
-.description-container p{
+.product-card .description-container p{
     text-align: left;
     font-style: italic;
 } 
+

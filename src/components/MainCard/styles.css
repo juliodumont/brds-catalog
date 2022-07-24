@@ -18,3 +18,13 @@
     text-align: center;
     width: 260px;
 }
+
+.card-image-container{
+    width: 244px;
+    height: auto;
+}
+
+.card-image-container svg{
+    width: 100%;
+    height: auto;
+}

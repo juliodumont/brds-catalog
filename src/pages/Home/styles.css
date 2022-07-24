@@ -1,3 +1,69 @@
-main{
-    padding: 20px 10px;
+
+
+@media screen and (min-width: 576px) {
+    .main-card{
+        margin-bottom: 30px;
+    }
+
+    .desc-card{
+        flex-direction: row;
+        padding: 42px 0px 42px 85px;
+        align-items: center;
+    }
+    
+    .desc-card p{
+        margin: 0px;
+        text-indent: 16px;
+        text-align: left;
+    }
+
+    .main-card h3{ 
+        font-size: 36px;
+    }
+    
+    .main-card p{
+        font-size: 18px;
+    }
+
+    .main-card .description-container{
+        width: 420px;
+    }
+    
+    .main-card .card-image-container{
+        width: 333px;
+    }
+
 }
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 992px) {
+    .main-card .card-image-container{
+        width: 455px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .main-card{
+        flex-direction: row-reverse;
+        justify-content: center;
+        padding: 83px 0px;
+    }
+
+    .main-card .description-container{
+        margin-right: 63px;
+    }
+
+    .main-card p{
+        text-align: left;
+    }
+
+    .main-card .card-image-container{
+        width: 333px;
+    }
+
+}
+
