@@ -10,7 +10,7 @@
 }
 
 .search-container input{
-    flex: 1 0 199px; 
+    flex: 1 0 191px; 
     max-width: 584px;
     text-indent: 13px;
     height: 40px;
@@ -28,7 +28,7 @@
 
 
 .search-container button{  
-    flex: 1 0 77px;
+    flex: 1 0 69px;
     max-width: 174px;
     padding: unset;
     border-radius: 0px 5px 5px 0px;

@@ -9,6 +9,8 @@ export default function Navbar() {
         <Link to="/" className="nav-logo-text">
           Carros Top
         </Link>
+
+
         <button
           className="navbar-toggler"
           type="button"
@@ -21,8 +23,8 @@ export default function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse" id="brds-catalog-navbar">
-          <ul className="navbar-nav offset-md-2 main-menu">
+        <div className="collapse navbar-collapse main-menu-container" id="brds-catalog-navbar">
+          <ul className="navbar-nav main-menu">
             <li>
               <NavLink to="/" activeClassName="active" exact>
                 Home

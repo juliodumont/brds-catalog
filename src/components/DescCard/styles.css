@@ -9,6 +9,11 @@
     font-size: 18px;
 }
 
+.desc-card a{
+    text-decoration: none;
+    color: unset;
+}
+
 .description-container{
     text-align: center;
     width: 260px;

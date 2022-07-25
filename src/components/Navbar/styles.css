@@ -3,6 +3,10 @@
     min-height: 70px;
 }
 
+.container-fluid{
+    padding: 0px;
+}
+
 .nav-logo-text, .nav-logo-text:hover{
     font-weight: 700;
     font-size: 24px;
@@ -10,10 +14,28 @@
     color: #00285F;
 }
 
+.main-menu-container{
+    position: relative;
+}
+
 .main-menu{
-    display: flex;
     font-size: 18px;
+    width: 170px;
     justify-content: space-between;
+    position: absolute;
+    right: 0;
+}
+
+.main-menu-container.show .main-menu{
+    margin-bottom: 32px;
+}
+
+.main-menu-container.show .main-menu a{
+    margin-bottom: 12px;
+}
+
+.main-menu-container.show .main-menu{ 
+    position: static;
 }
 
 .main-menu a{
@@ -30,8 +52,21 @@
     font-weight: 700;
 }
 
-
 .navbar-toggler{
     border: none;
+    margin: 0px 0px;
 }
 
+
+@media screen and (min-width: 768px) {
+    .main-nav{
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .main-nav{
+        padding: 0 150px;
+    }
+
+}
