@@ -13,6 +13,8 @@ afterEach(() => server.resetHandlers());
 afterAll(() => {server.close()})
 
 
+//Porque Router é necessário? Existem componentes Links sendo renderizados dentro do catalogo.
+
 test.only('Should render catalog with products', async () => {
   const text = 'Fazer login';
   render(
